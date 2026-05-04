@@ -1,5 +1,5 @@
 #  **Arabic Speech Recognition System**
-##  Built By Mustafa Othman & Seif ibrahim
+### Built By Mustafa Othman & Seif ibrahim
 ### Deep Learning Based Arabic Audio Understanding — Qwen3-ASR-1.7B
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
