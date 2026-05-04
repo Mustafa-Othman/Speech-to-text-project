@@ -1,4 +1,5 @@
-# 🎙️ Arabic Speech Recognition System
+#  Arabic Speech Recognition System
+#  Built By Mustafa Othman & Seif ibrahim
 ### Deep Learning Based Arabic Audio Understanding — Qwen3-ASR-1.7B
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
@@ -9,7 +10,7 @@
 
 ---
 
-## 📋 Overview
+##  Overview
 
 This project implements an **Arabic Speech Recognition (ASR) system** using the **Qwen3-ASR-1.7B** model, evaluated on the Mozilla Common Voice Arabic TTS dataset. The work is inspired by and compared against the paper:
 
@@ -20,7 +21,7 @@ The system transcribes Arabic speech to text, evaluates using Word Error Rate (W
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 Arabic Audio (.wav)
@@ -48,7 +49,7 @@ Arabic Audio (.wav)
 
 ---
 
-## 📊 Results
+##  Results
 
 | Model | Accuracy | WER |
 |---|---|---|
@@ -62,7 +63,7 @@ Arabic Audio (.wav)
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 arabic-asr/
@@ -77,7 +78,7 @@ arabic-asr/
 
 ---
 
-## 🗂️ Dataset
+##  Dataset
 
 **Mozilla Common Voice Arabic TTS**
 
@@ -101,7 +102,7 @@ arabic_tts/
 
 ---
 
-## 🤖 Model
+##  Model
 
 **Qwen3-ASR-1.7B** by Alibaba Cloud
 
@@ -115,18 +116,18 @@ arabic_tts/
 
 ---
 
-## 🔧 Features
+##  Features
 
-- ✅ **Arabic Speech Transcription** — converts WAV audio to Arabic text
-- ✅ **Text Normalization** — strips diacritics, unifies alef variants, removes punctuation for fair WER comparison
-- ✅ **WER & CER Evaluation** — Word Error Rate and Character Error Rate
-- ✅ **Keyword Spotting** — detects Arabic keywords by category (greetings, numbers, directions, emergency)
-- ✅ **Visualization** — waveform, MFCC features, WER distribution, model comparison charts
-- ✅ **Gradio Demo** — interactive web interface with microphone support
+-  **Arabic Speech Transcription** — converts WAV audio to Arabic text
+-  **Text Normalization** — strips diacritics, unifies alef variants, removes punctuation for fair WER comparison
+-  **WER & CER Evaluation** — Word Error Rate and Character Error Rate
+-  **Keyword Spotting** — detects Arabic keywords by category (greetings, numbers, directions, emergency)
+-  **Visualization** — waveform, MFCC features, WER distribution, model comparison charts
+-  **Gradio Demo** — interactive web interface with microphone support
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### On Kaggle (Recommended)
 
@@ -164,7 +165,7 @@ jupyter notebook Arabic_ASR_Kaggle_Qwen3.ipynb
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 | Package | Purpose |
 |---|---|
@@ -181,7 +182,7 @@ jupyter notebook Arabic_ASR_Kaggle_Qwen3.ipynb
 
 ---
 
-## 🔍 Keyword Spotting
+##  Keyword Spotting
 
 The system detects Arabic keywords organized by category:
 
@@ -197,7 +198,7 @@ The system detects Arabic keywords organized by category:
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 **Word Error Rate (WER):**
 ```
@@ -218,7 +219,7 @@ Accuracy = 1 - WER
 
 ---
 
-## 📄 Reference Paper
+##  Reference Paper
 
 ```bibtex
 @article{alahmadi2024arabic,
@@ -235,7 +236,7 @@ Accuracy = 1 - WER
 
 ---
 
-## 📝 Notebook Structure
+##  Notebook Structure
 
 | Step | Description |
 |---|---|
@@ -251,7 +252,7 @@ Accuracy = 1 - WER
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 - First run downloads the model (~4.7GB) — takes 5-10 minutes
 - GPU is required for reasonable inference speed (~3 sec/sample on T4)
@@ -260,12 +261,12 @@ Accuracy = 1 - WER
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License.
 
 ---
 
 <div align="center">
-  <p>Built with ❤️ for Arabic NLP</p>
+  <p>Built with Love for Arabic NLP</p>
 </div>
