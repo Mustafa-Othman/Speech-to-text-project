@@ -53,10 +53,6 @@ Arabic Audio (.wav)
 
 | Model | Accuracy | WER |
 |---|---|---|
-| Autoencoder (MLP) — Paper | 65.72% | — |
-| Autoencoder (LSTM) — Paper | 71.58% | 28.42% |
-| CNN-LSTM — Paper | 93.00% | 13.52% |
-| **Autoencoder (GRU) — Paper Best** | **95.31%** | **4.69%** |
 | **Qwen3-ASR-1.7B (Ours)** | **81.61%** | **18.39%** |
 
 > **Note:** The paper's model was trained and tested on the same controlled dataset. Our model is evaluated **zero-shot** — no fine-tuning on this dataset — which explains the difference. The model still achieves strong performance without any task-specific training.
