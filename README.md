@@ -1,4 +1,4 @@
-#  Arabic Speech Recognition System
+#  **Arabic Speech Recognition System**
 #  Built By Mustafa Othman & Seif ibrahim
 ### Deep Learning Based Arabic Audio Understanding — Qwen3-ASR-1.7B
 
